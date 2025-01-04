@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the Cleaned Data
-df = pd.read_csv('/Users/vedantpramodwagh/Documents/VC/chess_games_raw.csv')
+df = pd.read_csv('./chess_games_raw.csv')
 
 st.title('Chess Data Analysis Dashboard')
 
